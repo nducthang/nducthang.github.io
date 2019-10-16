@@ -23,7 +23,7 @@ states.addEventListener('click', (event) => {
     NFA.innerHTML = "";
     DFA.innerHTML = "";
     input.innerHTML = "";
-    if (!numsymbol || !numsymbol || !initials || !finals) {
+    if (!numstate || !numsymbol || !initials || !finals) {
         alert.classList.remove('invisible');
         alert.classList.add('visible');
         //alert('Vui lòng nhập đầy đủ các trường dữ liệu!');
