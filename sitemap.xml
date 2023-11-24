@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nducthang.github.io/tags/influence-function/</loc>
+    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nducthang.github.io/posts/</loc>
+    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nducthang.github.io/tags/</loc>
+    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nducthang.github.io/</loc>
+    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nducthang.github.io/posts/2023-11-24-influence-function/</loc>
+    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nducthang.github.io/archives/</loc>
   </url><url>
     <loc>https://nducthang.github.io/categories/</loc>
@@ -9,9 +24,5 @@
     <loc>https://nducthang.github.io/search/</loc>
   </url><url>
     <loc>https://nducthang.github.io/series/</loc>
-  </url><url>
-    <loc>https://nducthang.github.io/tags/</loc>
-  </url><url>
-    <loc>https://nducthang.github.io/</loc>
   </url>
 </urlset>

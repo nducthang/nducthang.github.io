@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Thang&#39;s Blog</title>
-    <link>https://nducthang.github.io/</link>
-    <description>Recent content on Thang&#39;s Blog</description>
+    <title>Influence function on Thang&#39;s Blog</title>
+    <link>https://nducthang.github.io/tags/influence-function/</link>
+    <description>Recent content in Influence function on Thang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nducthang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nducthang.github.io/tags/influence-function/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is Influence Function?</title>
       <link>https://nducthang.github.io/posts/2023-11-24-influence-function/</link>
@@ -15,8 +15,6 @@
       <description>In this article, I review about Influence functions and various of its - a classic technique from robust statistics - to trace a model&amp;rsquo;s prediction through the learning algorithm and back to its training data, thereby identifying training points most responsible for a given prediction.
 Basics of influence function Consider a prediction problem from some input space \(\mathcal{X}\) (e.g., images, text,\(\ldots\)) to an output space \(\mathcal{Y}\) (e.g,. labels).</description>
     </item>
-    
-    
     
   </channel>
 </rss>
