@@ -1,0 +1,132 @@
+baseURL: ""
+title: Thang's Blog
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageName: "EN"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Home
+          urt: /
+          weight: 1
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "NDucThang's Blog - My Notes about AI and Algorithms | AI | Algorithms | nducthang.com"
+  author: Thang Nguyen-Duc
+
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowShareButtons: true
+  ShowReadingTime: true
+  disableSpecial1stPost: false
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  comments: false
+
+  homeInfoParams:
+    Title: "👋 Welcome to Thang's Blog"
+    Content: >
+      - 👏 Hi there, I'm **Thang Nguyen-Duc**. I am interested in Algorithms, AI Generative Models. My background is in Math and Programming, AI Research, and Teaching skills.
+      
+      - 🌱 Outside my work, I teach algorithms and programming languages like C++, and Python, and I find immense joy in witnessing my students' growth.
+      
+      - 👻 This blog documents my learning process, and is also where I share knowledge with everyone.
+
+  socialIcons:
+    - name: Rss
+      url: "index.xml"
+    - name: github
+      url: "https://github.com/nducthang"
+    - name: Linkedin
+      url: "https://www.linkedin.com/nducthang/"
+    - name: Cv
+      url: "cv.pdf"
+
+  label:
+    icon: icon.png
+    iconHeight: 50
+
+  assets:
+    isableHLJS: true
+    favicon: icon.png
+    favicon16x16: icon.png
+    favicon32x32: icon.png
+    apple_touch_icon: icon.png
+    safari_pinned_tab: icon.png
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: false
+  twitter:
+    disableInlineCSS: false
+
+taxonomies:
+  tag: "tags"
