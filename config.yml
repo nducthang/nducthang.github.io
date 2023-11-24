@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://nducthang.github.io/"
 title: Thang's Blog
 paginate: 20
 theme: PaperMod
