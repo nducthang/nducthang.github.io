@@ -2,10 +2,6 @@
 title: "What is Influence Function?"
 date: "2023-11-24"
 tags: ["Influence function"]
-ShowBreadCrumbs: true
-ShowToc: true
-TocOpen: false
-math: true
 ---
 {{< math.inline >}}
 {{ if or .Page.Params.math .Site.Params.math }}

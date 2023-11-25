@@ -10,7 +10,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-# googleAnalytics: UA-123-45
+googleAnalytics: G-MZBM3J5EX7
 
 minify:
   disableXML: true
@@ -49,8 +49,8 @@ outputs:
     - JSON
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "NDucThang's Blog - My Notes about AI and Algorithms | AI | Algorithms | nducthang.com"
+  env: production
+  description: "Thang's Blog - My notes about Deep learning | AI | Algorithms | nducthang.github.io"
   author: Thang Nguyen-Duc
 
   defaultTheme: auto
@@ -64,12 +64,14 @@ params:
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
   ShowToc: true
+  TocOpen: false
+  math: true
   comments: false
 
   homeInfoParams:
     Title: "👋 Welcome to Thang's Blog"
     Content: >
-      - 👏 Hi there, I'm **Thang Nguyen-Duc**. I am interested in Algorithms, AI Generative Models. My background is in Math and Programming, AI Research, and Teaching skills.
+      - 👏 Hi there, I'm **Thang Nguyen-Duc**. I am an AI Engineer | AI Scientist. I am interested in Generative Models, Error Detection,... My background is in Math and Programming, AI, Algorithm, and Teaching skills.
       
       - 🌱 Outside my work, I teach algorithms and programming languages like C++, and Python, and I find immense joy in witnessing my students' growth.
       
