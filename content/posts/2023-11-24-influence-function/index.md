@@ -39,7 +39,7 @@ Following the result in <cite>Pang Wei Koh and Percy Liang[^1]</cite>, {{< math.
 $$
     \left.\mathcal{I}_{\text {up,params }}(z) \stackrel{\text { def }}{=} \frac{d \hat{\theta}_{\epsilon, z}}{d \epsilon}\right|_{\epsilon=0}=-H_{\hat{\theta}}^{-1} \nabla_{\theta} L(z, \hat{\theta})
 $$
-The change in the loss value for a particular test point \(z_t\) when a training point $z$ is up-weighted can be approximated as a closed-form expression by the chain rule:
+The change in the loss value for a particular test point \(z_t\) when a training point \(z\) is up-weighted can be approximated as a closed-form expression by the chain rule:
 $$
 \begin{aligned}
     \mathcal{I}_{\text {up,loss }}\left(z, z_{\text {test }}\right) &\left.\stackrel{\text { def }}{=} \frac{d L\left(z_{\text {test }}, \hat{\theta}_{\epsilon, z}\right)}{d \epsilon}\right|_{\epsilon=0} \\
@@ -71,7 +71,7 @@ Define the parameter change \(\Delta_{\epsilon} = \hat{\theta}_{\epsilon,z} - \h
 $$
     \frac{d \hat{\theta}_{\epsilon, z}}{d \epsilon}=\frac{d \Delta_{\epsilon}}{d \epsilon}
 $$
-Since \(\hat{\theta}_{\epsilon, z}\) is a minimizer of bellow equation, let us examine its first-order optimality conditions:
+Since \(\hat{\theta}_{\epsilon, z}\) is a minimizer of above equation, let us examine its first-order optimality conditions:
 $$
     0=\nabla R\left(\hat{\theta}_{\epsilon, z}\right)+\epsilon \nabla L\left(z, \hat{\theta}_{\epsilon, z}\right)
 $$
@@ -124,7 +124,7 @@ $$
 	  \end{matrix}
 	\right.
 $$
-The third component of the bellow equation is equivalent to calculating \(\mathbf{Hv}\) where: \(\mathbf{H}=\nabla^2_{\theta} L(z_{s_j}, \hat{\theta})\) and \(\mathbf{v}=H_{j-1}^{-1}v\){{</ math.inline >}}. In <cite>Heterogeneous uncertainty sampling for supervised learning[^2]</cite>, we have:
+The third component of the above equation is equivalent to calculating \(\mathbf{Hv}\) where: \(\mathbf{H}=\nabla^2_{\theta} L(z_{s_j}, \hat{\theta})\) and \(\mathbf{v}=H_{j-1}^{-1}v\){{</ math.inline >}}. In <cite>Heterogeneous uncertainty sampling for supervised learning[^2]</cite>, we have:
 {{< math.inline >}}
 $$
     \mathbf{H} \mathbf{v}=\nabla_{\mathbf{\theta}}\left(\mathbf{v} \cdot \nabla_{\mathbf{\theta}} L\right)
