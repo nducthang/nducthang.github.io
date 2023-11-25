@@ -5,7 +5,17 @@
     <link>https://nducthang.github.io/posts/</link>
     <description>Recent content in Posts on Thang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nducthang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nducthang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gradient-based methods in error detection</title>
+      <link>https://nducthang.github.io/posts/2023-11-25-gradient-based-methods/</link>
+      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nducthang.github.io/posts/2023-11-25-gradient-based-methods/</guid>
+      <description>I strongly encourage you to explore my earlier article, Understanding the Influence Function, as it serves as a valuable foundation for comprehending the content presented in this piece.
+ What is error detection problem? The rapid growth of the internet, however, causes data to rise exponentially, posing numerous issues. Deep learning algorithms become less effective when big data is mislabeled or contains many errors. Current studies focus solely on improving the model rather than detecting data issues.</description>
+    </item>
+    
     <item>
       <title>What is Influence Function?</title>
       <link>https://nducthang.github.io/posts/2023-11-24-influence-function/</link>
