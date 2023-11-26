@@ -83,9 +83,9 @@ params:
     - name: github
       url: "https://github.com/nducthang"
     - name: Linkedin
-      url: "https://www.linkedin.com/nducthang/"
+      url: "https://www.linkedin.com/in/nducthang/"
     - name: Cv
-      url: "cv.pdf"
+      url: "2023-CV-Thang-Nguyen-Duc.pdf"
 
   label:
     icon: icon.png
