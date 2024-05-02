@@ -57,22 +57,22 @@ The most widely used decoder-only are GPT-1 and GPT-2, these models lay the foun
     - Context size is increased from 512 to 1024 tokens.
 
 ## 1.3 Encoder-Decoder
-The most widely used encoder-decoder are T5, mT5, MASSS and BART.
+The most widely used encoder-decoder are T5, mT5, MASS and BART.
 
 - ***T5***: Text-to-Text Transfer Transformer (T5) model where transfer learning is effectively exploited for NLP via an introduction of a unified framework in which all NLP tasks are cast as a text-to-text generation task.
 - ***mT5***: pre-trained on a newcommon Crawl based dataset consisting of texts in 101 languages.
 - ***MASS***: MAsked Sequence to Sequence pre-training: adopts the encoder-decoder framework to reconstruct a sentence fragment given the remaining part of the sentence. The encoder takes a sentence with randomly masked fragment (several consecutive tokens) as input, and the decoder predicts the masked fragment.
 - ***BART***: sequence-to-sequence translation model architecture, is a pre-trained by corrupting text with an arbitrary nosing function, and then learning to reconstruct the original text.
 
-# 2. Large Languagme Model Families
+# 2. Large Language Model Families
 In this section, I review 3 LLM families: GPT, LLaMA, PaLM.
-![Large Languagme Model Families](6.png)
+![Large Language Model Families](6.png)
 
 In addition to these models, there are other popular LLMs which do not belong to those three model families,  yet they have achieved great performance and have pushed the LLMs field forward: FLAN, Gopher, T0, ERNIE 3.0, RETRO, GlaM, LaMDA, OPTChinchilla, Galactica, CodeGen, AlexaTM, Sparrow, Minerva, MoD, BLOOM, GLM, Pythia, Orca, StarCoder, Kosmos, Gemini,…
 ## 2.1 GPT Family
 This family consists of GPT-1, GPT-2, GPT-3, InstructGPT, ChatGPT, GPT-4, CODEX, and WebGPT, developed by OpenAI.
 
-- ***GPT-3***: is a pre-trained autoregressive language model with 175 millio parameters. GPT-3 shows the emergent ability of in-context learning, which means GPT-3 can be applied to any downstream tasks without any gradient updates or fine-tuning.
+- ***GPT-3***: is a pre-trained autoregressive language model with 175 million parameters. GPT-3 shows the emergent ability of in-context learning, which means GPT-3 can be applied to any downstream tasks without any gradient updates or fine-tuning.
 - ***CodeX***:  is a general-purpose programming model that can parse natural language and generate code in response. Fine-tuned for programming applications on code corpora collected from GitHub.
 - ***WebGPT***:  fine-tuned to answer open-ended questions using a text-based web browser, facilitating users to search and navigate the web. WebGPT is trained in 3 steps:
     - Firstly, WebGPT learn to  mimic human browsing behaviors using human demonstration data.
