@@ -64,7 +64,7 @@ params:
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
   ShowToc: true
-  TocOpen: false
+  TocOpen: true
   math: true
   comments: false
 

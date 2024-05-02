@@ -13,7 +13,7 @@ Based on Transformer, we can split neural networks in LLM into 3 categories:
 
 - Encoder-Only
 - Decoder-Only
-- Encoder-Decoder Only
+- Encoder-Decoder
 ## 1.1 Encoder-Only
 The models only consist of an encoder network. Representative encode-only models include BERT and its variants (RoBERTa, DeBERTa, XLM, ALBERT, …)
 
@@ -56,8 +56,8 @@ The most widely used decoder-only are GPT-1 and GPT-2, these models lay the foun
     - Layer normalization is moved to the input of each sub-block, additional layer normalization is added after the final self-attention block.
     - Context size is increased from 512 to 1024 tokens.
 
-## 1.3 Encoder-Decoder Only
-The most widely used encoder-decoder only are T5, mT5, MASSS and BART.
+## 1.3 Encoder-Decoder
+The most widely used encoder-decoder are T5, mT5, MASSS and BART.
 
 - ***T5***: Text-to-Text Transfer Transformer (T5) model where transfer learning is effectively exploited for NLP via an introduction of a unified framework in which all NLP tasks are cast as a text-to-text generation task.
 - ***mT5***: pre-trained on a newcommon Crawl based dataset consisting of texts in 101 languages.
