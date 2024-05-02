@@ -4,7 +4,7 @@ date: "2024-05-01"
 tags: ["LLM"]
 ---
 
-This article summarizes word knowledge from <cite>[Large Language Models: A Survey ^1]</cite> . In this section, I summarize about Large Language Model Families.
+This article summarizes word knowledge from <cite>Large Language Models: A Survey [^1]</cite> . In this section, I summarize about Large Language Model Families.
 
 # 1. Basic Architecture
 The invention of the Transformer architecture marks another milestone in the development of LLM. By applying self-attention to compute in parallel for every word in a sentence of the document an “attention score” to model the influence each word has on another. Transformers allow for much more parallelization than RNNs.
