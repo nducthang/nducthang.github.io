@@ -12,7 +12,7 @@
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://nducthang.github.io/posts/2024-05-01-llm-large-language-model-families/</guid>
-      <description>This article summarizes word knowledge from [Large Language Models: A Survey ^1] . In this section, I summarize about Large Language Model Families.
+      <description>This article summarizes word knowledge from Large Language Models: A Survey 1 . In this section, I summarize about Large Language Model Families.
 1. Basic Architecture The invention of the Transformer architecture marks another milestone in the development of LLM. By applying self-attention to compute in parallel for every word in a sentence of the document an “attention score” to model the influence each word has on another. Transformers allow for much more parallelization than RNNs.</description>
     </item>
     
