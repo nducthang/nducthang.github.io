@@ -8,7 +8,7 @@ This article summarizes word knowledge from <cite>Large Language Models: A Surve
 
 # 1. Basic Architecture
 The invention of the Transformer architecture marks another milestone in the development of LLM. By applying self-attention to compute in parallel for every word in a sentence of the document an “attention score” to model the influence each word has on another. Transformers allow for much more parallelization than RNNs.
-![Transformer architecture](1.png)
+![Transformer architecture](1.png){:width="100px" height="100px"}
 Based on Transformer, we can split neural networks in LLM into 3 categories:
 
 - Encoder-Only
@@ -19,7 +19,11 @@ The models only consist of an encoder network. Representative encode-only models
 
 - ***BERT** (Bidirectional Encoder Representations from Transformers)* is one of the most widely used encode-only. The pre-trained BERT can be fine-tuned for different tasks like classification, question answering…
 
-![BERT model](2.png) ![BERT fintune](3.png)
+<!-- Insert 2 images in a line -->
+BERT Model                |  BERT Fine-tuning       |
+|:-----------------------:|:-----------------------:|
+| ![BERT model](2.png)    | ![BERT fintune](3.png)  |
+
 
 BERT consists of 3 modules:
 

@@ -85,7 +85,7 @@ params:
     - name: Linkedin
       url: "https://www.linkedin.com/in/nducthang/"
     - name: CV
-      url: "CV_NguyenDucThang_2024.pdf"
+      url: "CV___Nguyen_Duc_Thang___2024.pdf"
 
   label:
     icon: icon.png
