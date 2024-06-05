@@ -1,5 +1,5 @@
 ---
-title: "My research aims to improve image and text quality in Stable Diffusion."
+title: "My research aims to improve image and text quality in Stable Diffusion"
 date: "2024-06-01"
 tags: ["Stable Diffusion"]
 ---
