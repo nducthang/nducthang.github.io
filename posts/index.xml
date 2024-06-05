@@ -5,13 +5,13 @@
     <link>https://nducthang.github.io/posts/</link>
     <description>Recent content in Posts on Thang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 05 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nducthang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nducthang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My research to improve image and text quality in Stable Diffusion</title>
-      <link>https://nducthang.github.io/posts/2024-05-05-text-generation-in-sd/</link>
-      <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
+      <title>My research aims to improve image and text quality in Stable Diffusion.</title>
+      <link>https://nducthang.github.io/posts/2024-06-01-text-generation-in-sd/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://nducthang.github.io/posts/2024-05-05-text-generation-in-sd/</guid>
+      <guid>https://nducthang.github.io/posts/2024-06-01-text-generation-in-sd/</guid>
       <description>Thank you all for visiting my blog. Today, I am excited to introduce some showcases demonstrating how my team and I have enhanced the image quality of Stable Diffusion. Additionally, I&amp;rsquo;m pleased to share that we have significantly improved Stable Diffusion&amp;rsquo;s text generation capabilities within images, achieving both beauty and stability.
 Our current research is being applied to develop an image-generating product that automatically creates ads from product URLs. Below are some of our showcases.</description>
     </item>
