@@ -3,7 +3,7 @@ title: "[LLM 02] Data cleaning and Tokenizations"
 date: "2024-06-10"
 tags: ["LLM"]
 ---
-This article summarizes word knowledge from <cite>Large Language Models: A Survey [^1]</cite> . This is a series of articles continuing [LLM 01 - Large Language Model Families](./2024-05-01-llm-large-language-model-families/)
+This article summarizes word knowledge from <cite>Large Language Models: A Survey [^1]</cite> . This is a series of articles continuing [LLM 01 - Large Language Model Families](../2024-05-01-llm-large-language-model-families/)
 
 [^1]: Shervin Minaee et al. “Large Language Models: A Survey”. In: arXiv preprint arXiv:2402.06196 (2024).
 
