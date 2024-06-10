@@ -144,8 +144,6 @@ So, "pug" would be tokenized as ["p", "ug"] or ["pu", "g"], depending on which o
 
 Each word in the corpus has a score, and the loss is the negative log likelihood of those scores — that is, the sum for all the words in the corpus of all the -log(P(word)).
 
-**Final Vocabulary**: The resulting vocabulary consists of tokens that maximize the likelihood of the training data. This vocabulary is used to tokenize new text inputs for the language model
-
 Let’s go back to our example with the following corpus:
 ```
 ("hug", 10), ("pug", 5), ("pun", 12), ("bun", 4), ("hugs", 5)
@@ -176,6 +174,8 @@ These changes will cause the loss to rise by:
 ```
 
 Therefore, the token "pu" will probably be removed from the vocabulary, but not "hug".
+
+**Final Vocabulary**: The resulting vocabulary consists of tokens that maximize the likelihood of the training data. This vocabulary is used to tokenize new text inputs for the language model
 
 Implement: [Detail](https://huggingface.co/learn/nlp-course/en/chapter6/7?fw=pt)
 
