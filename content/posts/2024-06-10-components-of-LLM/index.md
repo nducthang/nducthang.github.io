@@ -77,7 +77,9 @@ w ##o ##r ##d
 
 Thus, the initial alphabet contains all the characters present at the beginning of a word and the characters present inside a word preceded by the WordPiece prefix.
 Then, again like BPE, WordPiece learns merge rules. The main difference is the way the pair to be merged is selected. Instead of selecting the most frequent pair, WordPiece computes a score for each pair, using the following formula:
+{{< math.inline >}}
 $$score=(freq\_of\_pair)/(freq\_of\_first\_element \times freq\_of\_second\_element)$$
+{{</ math.inline >}}
 
 By dividing the frequency of the pair by the product of the frequencies of each of its parts, the algorithm prioritizes the merging of pairs where the individual parts are less frequent in the vocabulary.
 
