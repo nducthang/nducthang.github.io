@@ -1,5 +1,5 @@
 ---
-title: "Large Language Model Families"
+title: "[LLM 01] Large Language Model Overview"
 date: "2024-05-01"
 tags: ["LLM"]
 ---
@@ -8,7 +8,7 @@ This article summarizes word knowledge from <cite>Large Language Models: A Surve
 
 # 1. Basic Architecture
 The invention of the Transformer architecture marks another milestone in the development of LLM. By applying self-attention to compute in parallel for every word in a sentence of the document an “attention score” to model the influence each word has on another. Transformers allow for much more parallelization than RNNs.
-![Transformer architecture](1.png){:width="100px" height="100px"}
+![Transformer architecture](1.png)
 Based on Transformer, we can split neural networks in LLM into 3 categories:
 
 - Encoder-Only
@@ -107,3 +107,30 @@ The PaLM (Pathways Language Model) family are developed by Google. It is a 540B 
 - ***Med-PaLM***: is a medical questions domainm finetuned on PaLM using instruction prompt tuning, a parameter-effectient method for aligning LLMs to new domains using a few examples.
 
 [^1]: Shervin Minaee et al. “Large Language Models: A Survey”. In: arXiv preprint arXiv:2402.06196 (2024).
+
+# 3. How LLMs Are Built?
+To build a large language model (LLM) from scratch, the process generally involves the following stages:
+
+1. **Data Cleaning**: In this stage, we clean the data by filtering out duplicates, removing noise, and preprocessing the input data to ensure quality and consistency.
+
+2. **Tokenization**: Tokenization is the process of breaking down text into smaller units called tokens, which can be words, phrases, symbols, or other entities, depending on the use case and processing method. Various tokenization methods include WordPiece Encoding, SentencePiece Encoding, and Byte Pair Encoding. 
+
+3. **Positional Encoding**: This technique is used in NLP models to provide information about the positions of words in a sequence. It is especially crucial for non-sequential models like Transformers. Since Transformers do not process data in a sequential manner like RNNs or LSTMs, positional encoding is necessary to encode the positional information of words in a sequence.
+
+4. **Choosing LLM Architectures**: Selecting the architecture for the LLM, such as Encoder-Only, Decoder-Only, or Encoder-Decoder models.
+
+5. **Model Pre-training**: Pre-training the model using various methods, depending on the goals and architecture of the model, such as Masked Language Modeling, Causal Language Modeling, Next Sentence Prediction, and Mixture of Experts.
+
+6. **Fine-tuning and Instruction Tuning**: This involves adjusting a pre-trained model for a specific task by training it further on a new dataset related to that task. Common methods for fine-tuning and instruction tuning include Supervised Fine-Tuning, General Fine-Tuning, Multi-Turn Instructions, and Instruction Following.
+
+7. **Alignment**: Ensuring that the behavior of AI models aligns with the intentions and goals of users or developers. There are two main types of alignment: human alignment and task-specific alignment. Popular methods include Supervised Learning, Reinforcement Learning from Human Feedback (RLHF), Direct Preference Optimization, and KT Optimization.
+
+8. **Decoding Strategies**: These are methods used to generate text sequences from the language model after it has been trained. The goal is to produce coherent and contextually appropriate text. Common strategies include Greedy Search, Beam Search, Top-K Sampling, and Top-P Sampling.
+
+9. **Cost-Effective Training/Inference, Adaptation & Compression**: Optimizing costs and improving the efficiency of training and inference in LLMs, ensuring the models are scalable and deployable in cost-effective ways.
+
+This comprehensive process ensures that the LLM is robust, efficient, and aligned with its intended use, delivering high-quality, coherent, and contextually appropriate text outputs.
+
+![How LLMs Are Built](9.png) 
+
+We will explore each component in detail in the following articles.
