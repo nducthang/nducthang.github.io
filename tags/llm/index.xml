@@ -5,9 +5,20 @@
     <link>https://nducthang.github.io/tags/llm/</link>
     <description>Recent content in LLM on Thang&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nducthang.github.io/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nducthang.github.io/tags/llm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Large Language Model Families</title>
+      <title>[LLM 02] Data cleaning and Tokenizations</title>
+      <link>https://nducthang.github.io/posts/2024-06-10-components-of-llm/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nducthang.github.io/posts/2024-06-10-components-of-llm/</guid>
+      <description>This article summarizes word knowledge from Large Language Models: A Survey 1 . This is a series of articles continuing LLM 01 - Large Language Model Families
+1. Data Cleaning Data quality is pivotal to the performance of language models. Effective data cleaning techniques, such as filtering and deduplication, can significantly enhance model performance.
+1.1 Data Filtering Data filtering aims to enhance the quality of training data and improve the effectiveness of the trained language models.</description>
+    </item>
+    
+    <item>
+      <title>[LLM 01] Large Language Model Overview</title>
       <link>https://nducthang.github.io/posts/2024-05-01-llm-large-language-model-families/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
       
